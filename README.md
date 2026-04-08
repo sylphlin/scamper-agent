@@ -1,4 +1,4 @@
-# SCAMPER Innovation Sprint Agent
+# SCAMPER Agent
 
 This repository contains the SCAMPER Agent, an AI-powered innovation facilitator designed to guide users through a structured brainstorming and evaluation process. 
 
