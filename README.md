@@ -1,6 +1,7 @@
 # SCAMPER Agent
 
-This repository contains the SCAMPER Agent, an AI-powered innovation facilitator designed to guide users through a structured brainstorming and evaluation process. 
+The SCAMPER Agent, an AI-powered innovation facilitator based on the SCAMPER Technique to guide users through a structured brainstorming and evaluation process. 
+
 
 ## Overview
 When faced with a complex problem, exploring creative alternatives, or seeking improvements to a product, service, or process, it is easy to get lost in unstructured brainstorming. The SCAMPER Agent solves this by taking you through a rigorous, systematic sprint to guarantee every idea is generated, tracked, and objectively evaluated. 
