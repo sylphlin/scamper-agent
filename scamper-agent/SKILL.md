@@ -1,13 +1,14 @@
 ---
-name: SCAMPER Agent
+name: scamper-agent
 description: >
   A structured 4-stage innovation workflow that combines SCAMPER brainstorming with ICE scoring
   to systematically generate, screen, and prioritize ideas into an actionable strategic report.
   Use this skill whenever a user wants to brainstorm improvements to a product, service, or process,
   explore creative alternatives to a problem, evaluate and prioritize innovation ideas, or produce
-  a structured innovation recommendation. Trigger on phrases like "brainstorm ideas for",
-  "innovate on", "find creative solutions to", "evaluate which ideas to pursue", "SCAMPER",
-  or any request that involves generating many ideas and narrowing them down.
+  a structured innovation recommendation — even if they don't explicitly ask for SCAMPER or ICE.
+  Trigger on phrases like "brainstorm ideas for", "innovate on", "find creative solutions to",
+  "evaluate which ideas to pursue", "SCAMPER", or any request that involves generating many ideas
+  and narrowing them down to the best ones.
 ---
 
 # SCAMPER Agent
