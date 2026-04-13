@@ -8,7 +8,11 @@ The SCAMPER Agent is an AI agent skill that guides users through a structured br
 When faced with a complex problem, exploring creative alternatives, or seeking improvements to a product, service, or process, it is easy to get lost in unstructured brainstorming. The SCAMPER Agent solves this by taking you through a rigorous, systematic sprint to guarantee every idea is generated, tracked, and systematically evaluated. Specifically, it uses the SCAMPER technique for creative brainstorming and the ICE scoring model to rigorously screen and prioritize ideas.
 
 ## Methodology
-The agent's workflow is built upon two proven frameworks:
+The SCAMPER Agent uses a 4-stage workflow to turn rough goals into actionable strategies:
+1. **Clarify Goals & Constraints:** Infers primary goals, budgets, timelines, and constraints from user input, then presents a proposed configuration for confirmation.
+2. **SCAMPER Brainstorming:** Methodically generates indexed ideas mapped strictly to the SCAMPER framework.
+3. **Idea Screening:** Filters ideas through a constraint and goal-alignment check (removing, retaining, or flagging as conditional), then rigorously ranks the qualified ones by calculating their ICE scores.
+4. **Strategic Recommendation Report:** Synthesizes results into a strategic report with an execution roadmap, resource allocation plan, recommended MVP, and an appendix of excluded ideas.
 
 ### SCAMPER
 A creative thinking technique used to generate new ideas by asking targeted questions across 7 dimensions:
@@ -41,13 +45,6 @@ Each metric is scored 1–10 using the following calibration anchors:
 | 5–6 | Meaningful, measurable improvement | Plausible with indirect evidence or analogies | Moderate effort within current team capacity |
 | 7–8 | Strong strategic advantage | Supported by data, case studies, or prior success | Straightforward with existing tools and skills |
 | 9–10 | Game-changing or market-defining | Proven approach with high certainty | Can ship within days using what's already in place |
-
-## How It Works
-The SCAMPER Agent uses a 4-stage workflow to turn rough goals into actionable strategies:
-1. **Clarify Goals & Constraints:** Infers primary goals, budgets, timelines, and constraints from user input, then presents a proposed configuration for confirmation.
-2. **SCAMPER Brainstorming:** Methodically generates indexed ideas mapped strictly to the SCAMPER framework.
-3. **Idea Screening:** Filters ideas through a constraint and goal-alignment check (removing, retaining, or flagging as conditional), then rigorously ranks the qualified ones by calculating their ICE scores.
-4. **Strategic Recommendation Report:** Synthesizes results into a strategic report with an execution roadmap, resource allocation plan, recommended MVP, and an appendix of excluded ideas.
 
 ## Sample Questions
 
