@@ -1,9 +1,11 @@
 # SCAMPER Agent
 
-The SCAMPER Agent is an AI-powered innovation facilitator that guides users through a structured brainstorming and evaluation process based on the SCAMPER Technique.
+[English](README.md) | [正體中文 (zh-TW)](README.zh-TW.md) | [简体中文 (zh-CN)](README.zh-CN.md)
+
+The SCAMPER Agent is an AI agent skill that guides users through a structured brainstorming and evaluation process.
 
 ## Overview
-When faced with a complex problem, exploring creative alternatives, or seeking improvements to a product, service, or process, it is easy to get lost in unstructured brainstorming. The SCAMPER Agent solves this by taking you through a rigorous, systematic sprint to guarantee every idea is generated, tracked, and systematically evaluated. 
+When faced with a complex problem, exploring creative alternatives, or seeking improvements to a product, service, or process, it is easy to get lost in unstructured brainstorming. The SCAMPER Agent solves this by taking you through a rigorous, systematic sprint to guarantee every idea is generated, tracked, and systematically evaluated. Specifically, it uses the SCAMPER technique for creative brainstorming and the ICE scoring model to rigorously screen and prioritize ideas.
 
 ## Methodology
 The agent's workflow is built upon two proven frameworks:
@@ -47,11 +49,26 @@ The SCAMPER Agent uses a 4-stage workflow to turn rough goals into actionable st
 3. **Idea Screening:** Filters ideas through a constraint and goal-alignment check (removing, retaining, or flagging as conditional), then rigorously ranks the qualified ones by calculating their ICE scores.
 4. **Strategic Recommendation Report:** Synthesizes results into a strategic report with an execution roadmap, resource allocation plan, recommended MVP, and an appendix of excluded ideas.
 
-## Usage
+## Sample Questions
+
+### 1. Product Development
+When you want to brainstorm new features or completely reimagine a physical or digital product.
+
+> *"We want to create a next-generation smart water bottle for outdoor enthusiasts. Use SCAMPER to brainstorm new features, materials, and form factors, and evaluate the best ideas using ICE scoring."*
+
+### 2. Service Innovation
+When you are looking to reinvent customer experiences or offer new value propositions in a service business.
+
+> *"Our boutique hotel wants to completely reinvent the check-in and check-out experience. Run a SCAMPER session to generate innovative service ideas, focusing on eliminating friction and adapting hospitality trends."*
+
+### 3. Process Improvement
+When an internal workflow is inefficient, costly, or slow, and you need creative ways to optimize it.
+
+> *"Our current employee onboarding process is heavily manual and requires too much time from senior staff, yet new hires still feel culturally disconnected. Use SCAMPER to generate creative ways to overhaul our organizational onboarding flow, and rigorously screen the most viable solutions using ICE."*
+
+## How to Use
 You can integrate this agent configuration into Gemini Gems (using [`gemini-gem.md`](gemini-gem.md)), or if you want to use it as an available skill, you can refer to the [`scamper-agent/`](scamper-agent/) directory. 
 
-Trigger the agent by asking prompts like:
-- *"Brainstorm ideas for improving our onboarding process."*
-- *"Innovate on our existing mobile app."*
-- *"Find creative solutions to reduce customer churn."*
-- *"Use SCAMPER to evaluate which marketing ideas we should pursue."*
+Trigger the agent by including keywords or phrases in your prompts, such as:
+- *"SCAMPER"*, *"ICE scoring"*, *"innovate on"*, *"generate ideas"*, *"which idea should I pursue"*,
+- Or any request to systematically explore and narrow down options.
