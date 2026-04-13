@@ -63,7 +63,7 @@ SCAMPER Agent 使用分為 4 個階段的工作流程，將概略的目標轉化
 
 > *"我們目前的員工入職流程 (onboarding process) 高度仰賴人工作業，佔用資深員工太多時間，但新進人員在公司文化上仍感到脫節。請使用 SCAMPER 法來發想徹底改造組織入職流程的創意方法，並以 ICE 評分嚴格篩選出最可行的方案。"*
 
-### 使用方式 (How to Use)
+## 使用方式 (How to Use)
 您可以將此 agent 設定整合到 Gemini Gems 中（使用 [`gemini-gem.md`](gemini-gem.md)），或是若您想將其作為可用的技能 (skill) 使用，請參考 [`scamper-agent/`](scamper-agent/) 目錄。
 
 您可以透過在提示詞中包含關鍵字或片語來觸發 agent，例如：
